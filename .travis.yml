@@ -16,3 +16,7 @@ before_script:
 
 notifications:
   email: true
+
+addons:
+    code_climate:
+        repo_token: CodeClimateTokenForReplacement
