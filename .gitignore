@@ -1,7 +1,8 @@
 # Created by .ignore support plugin (hsz.mobi)
 
 Vendor/*
-.DS_Store
 .idea/
 composer.lock
 composer.phar
+
+# The above is basic Composer Excludes
