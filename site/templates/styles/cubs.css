@@ -1,0 +1,130 @@
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+  /*width: 1024px;*/
+  margin-bottom: 0;
+  border-radius: 0;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1024px;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {
+  /*height: 450px;
+  width: 1024px;*/
+  background-color: white;
+}
+
+/* Set gray background color and 100% height */
+.sidenav {
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {height:auto;} 
+}
+
+/* Main Content Styles */
+
+body {
+  background: 
+    linear-gradient(
+        rgba(240, 255, 240, 0.85), 
+        rgba(120, 128, 120, 0.95)        
+      ),
+    url(../img/cubs/grass.png);
+    /* Or rgba(149, 210, 40, 0.75), 
+        rgba(149, 210, 40, 0.75) Green */
+}
+
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1024px; /* or 950px */
+}
+
+/* Heading & Nav Styles */
+
+.headbar {
+  /*width: 1024px;
+  height: 200px;*/
+}
+
+
+/* --- Badge Styles --- */
+
+.badges {
+  width: 92px;
+  height: 92px;
+}
+
+/* --- Footer Styles --- */
+
+footer {
+  /*width: 1024px;*/
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  /*font-weight: bold;*/
+  color: #555;
+  line-height: 18px;
+  padding: 35px 15px 25px 15px;
+  /*background-image: url(../img/cubs/foot.png);*/
+  background-width: 1024px;
+  background-position: right bottom;
+  background-color: white;
+  position: relative;
+  /*overflow: hidden;*/
+}
+
+footer img {
+  z-index: -50;
+  width: 100%;
+  height: auto;
+  opacity: 0.3;
+}
+
+footer ul {
+  float: right;
+  width: 200px;
+  height: 70px;
+  z-index: 50;
+  position: absolute;
+  bottom: 20px;
+  right: 160px;
+}
+
+footer ul li {
+  float: left;
+}
+
+footer a {
+  position: relative;
+  display: block;
+  margin-left: 10px;
+  color: #aaa;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #aaa;
+  text-decoration: none;
+}
+
+.processwire {
+  width: 20px;
+  height: 20px;
+  background: url(../img/pwsml.png) center center no-repeat;
+}
+
+.login {
+  width: 140px;
+  height: 70px;
+}
+
