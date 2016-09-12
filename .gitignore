@@ -1,8 +1,18 @@
-# Created by .ignore support plugin (hsz.mobi)
+# Basic Composer Excludes
+vendor/
 
-Vendor/*
-.idea/
 composer.lock
 composer.phar
 
-# The above is basic Composer Excludes
+# Jetbrains Specific Excludes
+.idea/
+
+# Project Specific Config Files
+config.php
+googleanalytics.php
+
+# Deployment Specific Assets
+cache/
+files/
+logs/
+sessions/
